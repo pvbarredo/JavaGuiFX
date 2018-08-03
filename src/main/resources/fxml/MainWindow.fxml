@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="tapLabel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pevb.pedro.controller.MainWindowController">
+   <children>
+      <Button fx:id="tapButton" layoutX="282.0" layoutY="351.0" mnemonicParsing="false" onMouseClicked="#tapButtonClicked" text="Tap" />
+      <Label fx:id="tapLabel" layoutX="189.0" layoutY="23.0" />
+      <ImageView fitHeight="242.0" fitWidth="344.0" layoutX="110.0" layoutY="99.0">
+         <image>
+            <Image url="@../style/taptap.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
